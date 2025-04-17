@@ -1,5 +1,10 @@
 # Environment variables
 .env
+.secrets.toml
+
+# Data directory contents
+data/*
+!data/.gitkeep
 
 # Python
 __pycache__/
