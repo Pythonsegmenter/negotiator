@@ -1,1 +1,1 @@
-"""Test package for the negotiator project.""" 
+"""Test package for the negotiator project."""

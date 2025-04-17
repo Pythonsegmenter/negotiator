@@ -2,4 +2,4 @@
 
 from src.messenger.cli import CLIMessenger
 
-__all__ = ["CLIMessenger"] 
+__all__ = ["CLIMessenger"]
