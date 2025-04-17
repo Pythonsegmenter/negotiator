@@ -175,11 +175,11 @@ def test_user_flow_with_date_change(date_data):
             " at 0123456 and Paula at 012789"
         ),
         # Response to any additional questions about location or details
-        "I'll start from the Yoshida Trail on Mount Fuji",
+        "I'll start from Mount Fiji",
         # Response to any additional questions
         "I have all the equipment I need",
         # Response to any additional questions
-        "I plan to stay in a hotel near the trailhead",
+        "I plan to stay in a hotel near the mountain",
         # Response to the confirmation request
         f"No, I want to change the start date to {date_data['day_after_tomorrow_str']}",
         # Response to any follow-up after change
