@@ -1,0 +1,25 @@
+2025-04-18 16:54:20,248 - INFO - [__init__.py:6] - Initializing settings
+2025-04-18 16:54:25,856 - INFO - [cli.py:43] - Hello, I'm Trippy. I'll help you negotiate the best deal for your trip. What do you want to do?
+2025-04-18 16:54:27,572 - INFO - [cli.py:43] - Hey Trippy! I'm planning to hike Mount Batur at sunrise while I'm in Bali. There'll be four of us going. I wanna make sure we get the best value for the price, and I prefer a hike that's moderately difficult.
+2025-04-18 16:54:31,748 - INFO - [cli.py:43] - That sounds like an amazing adventure! To help you get the best deal, could you let me know what time you'd like to start the hike? Also, do you have a specific budget in mind for this experience?
+2025-04-18 16:54:32,879 - INFO - [cli.py:43] - Yeah, we're looking to start the hike pretty early, around 5 AM, to catch the sunrise. As for the budget, we're hoping to keep it under $300 for all four of us.
+2025-04-18 16:54:37,743 - INFO - [cli.py:43] - That sounds like a great plan! Just to make sure we can secure the best deal for you, do you have a specific deadline by when you'd like to finalize the arrangements? And do you already have a guide in mind, or should we reach out to someone you know?
+2025-04-18 16:54:39,126 - INFO - [cli.py:43] - We'd like to finalize everything by July 15th, just to be safe. I do have a couple of guides in mind, Made Wirawan and Ketut Suardana. If we can negotiate with one of them, that'd be awesome.
+2025-04-18 16:54:40,890 - INFO - [cli.py:43] - 📋 Here's a summary of your trip information:
+🎯 Activity: Hike Mount Batur at sunrise
+📍 Location: Mount Batur, Bali
+📅 Start Time: 2023-10-15T05:00:00+08:00
+⏱️ Negotiation Deadline: 2023-07-15T00:00:00+08:00
+👥 Number of Participants: 4
+💰 Budget: 300
+
+Guide Contacts:
+  • Made Wirawan:
+  • Ketut Suardana:
+
+Preferences:
+  • Price Vs Value: best_value
+
+Is all of this information correct? Please review it carefully.
+If everything looks good, please confirm. If anything needs to be changed, please let me know what needs to be corrected.
+2025-04-18 16:54:42,606 - INFO - [cli.py:43] - Hmm, there are just a couple of things that need fixing. The start date should be 2024-08-15 and the deadline to finalize is 2024-07-15. Also, you missed the contact details for the guides. Made Wirawan’s number is +6281234567890 and Ketut Suardana’s is +6287654321098. Everything else looks great!

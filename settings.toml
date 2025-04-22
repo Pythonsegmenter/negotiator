@@ -1,2 +1,20 @@
 [default]
 OPENAI_MODEL = "gpt-4o"
+SIMULATION = true
+SKIP_USER_DATA_COLLECTION = false
+
+[default.USER_SIMULATION_PROFILE]
+activity = "hiking Mount Batur at sunrise"
+location = "Bali, Indonesia"
+start_time = "2025-08-15T05:00:00+08:00"
+deadline_negotation = "2025-07-15T00:00:00+08:00"
+participants = 4
+budget = 300
+personality = "somewhat indecisive but eventually confirms information"
+
+[default.USER_SIMULATION_PROFILE.guide_contact_details]
+"Made Wirawan" = "+6281234567890"
+
+[default.USER_SIMULATION_PROFILE.preferences]
+price_vs_value = "best_value"
+difficulty = "moderate"

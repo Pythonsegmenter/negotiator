@@ -27,7 +27,7 @@ def sample_conversation() -> List[Dict[str, str]]:
 
 @pytest.fixture
 def test_conversation_id() -> str:
-    """Return a test conversation ID."""
+    """Return a test conversation ID (equivalent to user_id or guide_id)."""
     return generate_id()
 
 
@@ -61,7 +61,7 @@ def test_ensure_conversation_dir() -> None:
 def test_save_and_load_conversation(
     sample_conversation: List[Dict[str, str]], test_conversation_id: str
 ) -> None:
-    """Test saving and loading a conversation."""
+    """Test saving and loading a conversation using an ID (equivalent to user_id or guide_id)."""
     # Ensure the directory is clean
     clear_data_dir()
 
@@ -83,7 +83,7 @@ def test_save_and_load_conversation(
 
 
 def test_load_nonexistent_conversation(test_conversation_id: str) -> None:
-    """Test loading a conversation that doesn't exist."""
+    """Test loading a conversation that doesn't exist using an ID (equivalent to user_id or guide_id)."""
     # Ensure the directory is clean
     clear_data_dir()
 

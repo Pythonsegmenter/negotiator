@@ -4,6 +4,7 @@ import os
 from unittest.mock import patch
 
 import pytest
+from langchain_core.messages import HumanMessage
 
 from src.data_manager import (
     CONVERSATION_DIR,
@@ -30,7 +31,7 @@ def mock_print():
 
 @pytest.fixture
 def test_conversation_id():
-    """Fixture to provide a test conversation ID."""
+    """Fixture to provide a test conversation ID (equivalent to user_id or guide_id)."""
     return generate_id()
 
 
@@ -40,7 +41,7 @@ def sample_conversation():
     return [
         {"sender": "assistant", "text": "Hello, how can I help you?"},
         {"sender": "user", "text": "I need help with my trip"},
-        {"sender": "assistant", "text": "What kind of trip are you planning?"},
+        {"sender": "guide", "text": "What kind of trip are you planning?"},
     ]
 
 
@@ -62,7 +63,7 @@ def test_init_without_id():
 
 
 def test_init_with_id(test_conversation_id, cleanup_test_conversation):
-    """Test initializing a messenger with a conversation ID."""
+    """Test initializing a messenger with a conversation ID (equivalent to user_id or guide_id)."""
     # First, create a conversation file
     sample_convo = [{"sender": "assistant", "text": "Test message"}]
     save_conversation(test_conversation_id, sample_convo)
@@ -93,8 +94,26 @@ def test_send_without_id(mock_print):
     }
 
 
+def test_send_with_custom_sender(mock_print):
+    """Test sending a message with a custom sender."""
+    messenger = CLIMessenger()
+    test_message = "Test message from guide"
+
+    messenger.send(test_message, sender="guide")
+
+    # Check that print was called with the message
+    mock_print.assert_called_once_with(test_message)
+
+    # Check that the message was added with the correct sender
+    assert len(messenger.conversation_history) == 1
+    assert messenger.conversation_history[0] == {
+        "sender": "guide",
+        "text": test_message,
+    }
+
+
 def test_send_with_id(mock_print, test_conversation_id, cleanup_test_conversation):
-    """Test sending a message with a conversation ID."""
+    """Test sending a message with a conversation ID (equivalent to user_id or guide_id)."""
     messenger = CLIMessenger(test_conversation_id)
     test_message = "Test message"
 
@@ -152,7 +171,7 @@ def test_receive_with_prompt(mock_input):
 
 
 def test_receive_with_id(mock_input, test_conversation_id, cleanup_test_conversation):
-    """Test receiving a message with a conversation ID."""
+    """Test receiving a message with a conversation ID (equivalent to user_id or guide_id)."""
     messenger = CLIMessenger(test_conversation_id)
     expected_input = "Test user input"  # This matches our mock
 
@@ -180,6 +199,21 @@ def test_get_conversation_history(sample_conversation):
     assert result == sample_conversation
 
 
+def test_get_conversation_history_as_langchain_messages(sample_conversation):
+    """Test getting the conversation history as langchain messages."""
+    messenger = CLIMessenger()
+    messenger.conversation_history = sample_conversation.copy()
+
+    result = messenger.get_conversation_history(as_langchain_messages=True)
+
+    # Check the types and content of the messages
+    assert len(result) == 2  # User message and assistant message
+    assert isinstance(result[0], HumanMessage)
+    assert result[0].content == "Hello, how can I help you?"
+    assert isinstance(result[1], HumanMessage)
+    assert result[1].content == "I need help with my trip"
+
+
 def test_get_formatted_conversation(sample_conversation):
     """Test getting the formatted conversation."""
     messenger = CLIMessenger()
@@ -191,7 +225,7 @@ def test_get_formatted_conversation(sample_conversation):
         [
             "assistant: Hello, how can I help you?",
             "user: I need help with my trip",
-            "assistant: What kind of trip are you planning?",
+            "guide: What kind of trip are you planning?",
         ]
     )
 

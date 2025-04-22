@@ -2,6 +2,10 @@ import os
 
 from dynaconf import Dynaconf
 
+from src.log_manager.logging_config import logger
+
+logger.info("Initializing settings")
+
 # Initialize settings with Dynaconf
 settings = Dynaconf(
     envvar_prefix="NEGOTIATOR",

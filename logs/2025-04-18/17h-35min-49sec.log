@@ -1,0 +1,70 @@
+2025-04-18 17:35:49,175 - INFO - [__init__.py:6] - Initializing settings
+2025-04-18 17:35:56,202 - INFO - [cli.py:43] - Hello, I'm Trippy. I'll help you negotiate the best deal for your trip. What do you want to do?
+2025-04-18 17:35:58,082 - INFO - [cli.py:43] - Hey Trippy! I'm planning to go hiking on Mount Batur to catch the sunrise. I'm going with a group of four, so I need to find the best deal that offers great value without breaking the bank.
+2025-04-18 17:36:01,350 - INFO - [cli.py:43] - That sounds like an amazing adventure! To help you get the best deal, could you let me know what your budget is for this trip? Also, do you have a specific start time in mind for the hike? This will help in finding the right package for your group.
+2025-04-18 17:36:05,420 - INFO - [cli.py:43] - Yeah, super excited about it! Our budget is around $300 for the whole group. We're looking to start the hike early enough to catch the sunrise, so I guess around 5 AM on August 15th. 😊
+2025-04-18 17:36:08,180 - INFO - [cli.py:43] - That sounds like a perfect plan! Just to make sure we get everything sorted in time, do you have a deadline for when you'd like to finalize the booking? Also, if you have any contact details for a guide or tour company you're considering, that would be super helpful!
+2025-04-18 17:36:09,952 - INFO - [cli.py:43] - Oh, definitely want to get this all wrapped up by July 15th, so we've got some time but not too much. I have a contact for a guide, Made Wirawan, who we might go with. His number is +6281234567890. Hope that helps! 😊
+2025-04-18 17:36:11,670 - INFO - [cli.py:43] - 📋 Here's a summary of your trip information:
+🎯 Activity: Hiking to catch the sunrise
+📍 Location: Mount Batur
+📅 Start Time: 2023-08-15T05:00:00
+⏱️ Negotiation Deadline: 2023-07-15T00:00:00
+👥 Number of Participants: 4
+💰 Budget: 300
+
+Guide Contacts:
+  • Made Wirawan: +6281234567890
+
+Preferences:
+  • Price Vs Value: best_value
+
+Is all of this information correct? Please review it carefully.
+If everything looks good, please confirm. If anything needs to be changed, please let me know what needs to be corrected.
+2025-04-18 17:36:13,615 - INFO - [cli.py:43] - Looks good, but just a small correction on the year - we're aiming for 2024, not 2023. Other than that, everything else looks spot on! Thanks for putting this together. 😊
+2025-04-18 17:36:15,319 - INFO - [cli.py:43] - I've updated your information. Let me show you the new summary.
+2025-04-18 17:36:15,322 - INFO - [cli.py:43] - 📋 Here's a summary of your trip information:
+🎯 Activity: Hiking to catch the sunrise
+📍 Location: Mount Batur
+📅 Start Time: 2024-08-15T05:00:00
+⏱️ Negotiation Deadline: 2024-07-15T00:00:00
+👥 Number of Participants: 4
+💰 Budget: 300
+
+Guide Contacts:
+  • Made Wirawan: +6281234567890
+
+Preferences:
+  • Price Vs Value: best_value
+
+Is all of this information correct? Please review it carefully.
+If everything looks good, please confirm. If anything needs to be changed, please let me know what needs to be corrected.
+2025-04-18 17:36:16,379 - INFO - [cli.py:43] - Yep, this looks perfect now! Thanks for updating the year. Let's find the best deal and get this adventure booked! 😊
+2025-04-18 17:36:18,076 - INFO - [cli.py:43] - Thank you, we've got all we need. I'll start negotiating the best deal for your trip.
+2025-04-18 17:36:18,164 - INFO - [cli.py:43] - Hello, I am a travel agent working on behalf of a client. They are interested in: Hiking to catch the sunrise at Mount Batur. They would like to do this starting at 2024-08-15T05:00:00 with 4 participants. Their budget is 300. Can you help with this request? Please let me know if this is possible, what services you can provide, and your pricing. Thank you.
+2025-04-18 17:36:27,543 - INFO - [cli.py:43] - Hello, thank you for reaching out on behalf of your client. I'd be delighted to assist with organizing a sunrise hike to Mount Batur. Here are the details of the service I can provide:
+
+**Mount Batur Sunrise Hike Details:**
+
+- **Meeting Point:** We arrange an early morning pickup from your client's accommodation in the Ubud area around 2:00 AM to ensure a timely arrival at the base of Mount Batur. For locations outside Ubud, please let me know, and I can provide an adjusted pickup time.
+
+- **Hike Start Time:** The hike typically begins around 4:00 AM from the base of the mountain to allow ample time to reach the summit for the sunrise at approximately 6:00 AM.
+
+- **Duration:** The entire experience, including transportation, hiking, and return, is approximately 8–10 hours.
+
+- **Inclusions:**
+  - Round-trip transportation from the client's accommodation.
+  - Experienced local guide with detailed knowledge of the area and its history.
+  - Headlamps and walking sticks for safety.
+  - Light breakfast at the summit (usually includes eggs boiled in volcanic steam, bread, and hot tea or coffee).
+  - Entry fees to Mount Batur.
+  - Bottled water.
+
+- **Pricing:** The regular price for this package is $90 per person. For four participants, this totals $360. However, I can offer a 10% discount for your group, bringing the total to $324.
+
+- **Special Requirements:** Participants should be in good health and have a reasonable level of fitness as the hike can be moderately challenging. Comfortable hiking shoes and a jacket for the cooler temperatures at the summit are recommended.
+
+If your client's budget is strictly $300, we could potentially discuss further customization, such as adjusting transportation arrangements if they have their own means of reaching the base or omitting certain inclusions.
+
+Please let me know if you have any other questions or if you'd like to proceed with the booking. I look forward to assisting you further!
+2025-04-18 17:36:27,547 - INFO - [main.py:108] - The negotiation deadline has passed.

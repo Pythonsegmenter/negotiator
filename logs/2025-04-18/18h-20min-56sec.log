@@ -1,0 +1,203 @@
+2025-04-18 18:20:56,883 - INFO - [__init__.py:6] - Initializing settings
+2025-04-18 18:20:59,611 - INFO - [cli.py:43] - Hello, I'm Trippy. I'll help you negotiate the best deal for your trip. What do you want to do?
+2025-04-18 18:21:01,768 - INFO - [cli.py:43] - Hi Trippy! I'm planning to go hiking up Mount Batur in Bali to catch the sunrise. It's gonna be with a small group of 4 of us. I'm looking for the best value deal, preferably with a moderate level of difficulty. Can you help me with that?
+2025-04-18 18:21:05,840 - INFO - [cli.py:43] - That sounds like an amazing adventure! To help you find the best deal, could you let me know what your budget is for this hike? Also, do you have a specific start time in mind for the trek to catch that beautiful sunrise?
+2025-04-18 18:21:07,283 - INFO - [cli.py:43] - Yeah, sure! We've got a budget of around $300 for the whole trip. As for the start time, we're aiming to start the hike early, around 5 AM, on August 15th. Hoping to catch that sunrise, you know? 🌅
+2025-04-18 18:21:13,419 - INFO - [cli.py:43] - That sounds like a perfect plan! Just to make sure we get everything sorted in time, do you have a deadline for when you'd like to finalize the arrangements? Also, if you have any contact details for a guide or tour company you're considering, that would be super helpful!
+2025-04-18 18:21:14,644 - INFO - [cli.py:43] - Yeah, I'd like to finalize everything by July 15th, just to be safe. I've been looking into a local guide named Made Wirawan. His contact number is +6281234567890. Heard good things about him!
+2025-04-18 18:21:16,492 - INFO - [cli.py:43] - 📋 Here's a summary of your trip information:
+🎯 Activity: Hiking up Mount Batur to catch the sunrise
+📍 Location: Mount Batur, Bali
+📅 Start Time: 2023-08-15T05:00:00+08:00
+⏱️ Negotiation Deadline: 2023-07-15T00:00:00+08:00
+👥 Number of Participants: 4
+💰 Budget: 300
+
+Guide Contacts:
+  • Made Wirawan: +6281234567890
+
+Preferences:
+  • Price Vs Value: best_value
+
+Is all of this information correct? Please review it carefully.
+If everything looks good, please confirm. If anything needs to be changed, please let me know what needs to be corrected.
+2025-04-18 18:21:18,438 - INFO - [cli.py:43] - Oops, just a slight mix-up there! The start time should be 2025-08-15T05:00:00+08:00, and the negotiation deadline is 2025-07-15T00:00:00+08:00. Everything else looks spot on. Can you make those changes? Thanks!
+2025-04-18 18:21:20,506 - INFO - [cli.py:43] - I've updated your information. Let me show you the new summary.
+2025-04-18 18:21:20,507 - INFO - [cli.py:43] - 📋 Here's a summary of your trip information:
+🎯 Activity: Hiking up Mount Batur to catch the sunrise
+📍 Location: Mount Batur, Bali
+📅 Start Time: 2025-08-15T05:00:00+08:00
+⏱️ Negotiation Deadline: 2025-07-15T00:00:00+08:00
+👥 Number of Participants: 4
+💰 Budget: 300
+
+Guide Contacts:
+  • Made Wirawan: +6281234567890
+
+Preferences:
+  • Price Vs Value: best_value
+
+Is all of this information correct? Please review it carefully.
+If everything looks good, please confirm. If anything needs to be changed, please let me know what needs to be corrected.
+2025-04-18 18:21:21,608 - INFO - [cli.py:43] - Looks good now, thanks for making those changes! Let's go ahead and find the best deal for this adventure. 🤞
+2025-04-18 18:21:25,615 - INFO - [cli.py:43] - Thank you, we've got all we need. We'll get to work!
+2025-04-18 18:21:25,697 - INFO - [cli.py:43] - Hello, I am a travel agent working on behalf of a client. They are interested in: Hiking up Mount Batur to catch the sunrise at Mount Batur, Bali. They would like to do this starting at 2025-08-15T05:00:00+08:00 with 4 participants. Their budget is 300. Can you help with this request? Please let me know if this is possible, what services you can provide, and your pricing. Thank you.
+2025-04-18 18:21:35,444 - INFO - [cli.py:43] - Hello! Thank you for reaching out with your client's request. I would be delighted to assist you in organizing a sunrise hike up Mount Batur for your clients. Here are the details for this adventure:
+
+### Sunrise Mount Batur Hike:
+
+#### **Details & Inclusions:**
+- **Meeting Point:** The hike starts from the base of Mount Batur. We can arrange a pickup from your client's accommodation if it's within the Ubud area or nearby.
+- **Start Time:** To catch the sunrise, the hike typically begins around 3:00 AM. This timing ensures we reach the summit in time for the breathtaking sunrise view.
+- **Duration:** The entire experience, including pickup, the hike, time at the summit, and return, is approximately 8 hours.
+- **Guide:** A professional English-speaking guide will accompany the group, providing insights and ensuring safety throughout the trek.
+- **Breakfast:** Light breakfast on the summit, usually consisting of boiled eggs, bread, and tea/coffee, cooked using the volcanic steam.
+- **Equipment:** Walking sticks and headlamps are provided.
+
+#### **Pricing:**
+- **Standard Price:** The price for this experience is typically $100 per person.
+- **Total for 4 Participants:** $400.
+
+Considering your client's budget of $300, I can offer a 10% discount, bringing the total to $360 for the group. This is the best rate I can offer while ensuring the quality and safety of the experience.
+
+#### **Special Requirements:**
+- **Fitness Level:** Participants should have a moderate level of fitness.
+- **Clothing:** Recommend clients wear comfortable hiking shoes and bring a light jacket as it can be chilly at the summit before sunrise.
+
+If this fits within your client's plans and budget, please let me know, and we can proceed with the booking. If you have any other questions or need further assistance, do not hesitate to reach out.
+
+Looking forward to helping your clients experience the beauty of Mount Batur!
+
+Best regards,
+[Your Name]
+2025-04-18 18:21:40,346 - INFO - [guide_manager.py:244] - Continuing conversation with guide Made Wirawan
+2025-04-18 18:21:40,346 - INFO - [cli.py:43] - Hi Made Wirawan,
+
+Thank you for the detailed proposal. I understand the value of the services and the experience you provide. However, my client's budget is strictly $300 for this activity. Is there any possibility to adjust the package or offer any further discounts to fit within this budget? For example, are there options to exclude certain inclusions or adjust the pick-up arrangements that might help reduce the cost?
+
+Looking forward to your response.
+
+Best regards,
+[Your Name]
+2025-04-18 18:21:40,347 - INFO - [guide_manager.py:246] - Message sent to guide: Hi Made Wirawan,
+
+Thank you for the detailed proposal. I understand the value of the services and the experience you provide. However, my client's budget is strictly $300 for this activity. Is there any possibility to adjust the package or offer any further discounts to fit within this budget? For example, are there options to exclude certain inclusions or adjust the pick-up arrangements that might help reduce the cost?
+
+Looking forward to your response.
+
+Best regards,
+[Your Name]
+2025-04-18 18:21:47,559 - INFO - [cli.py:43] - Hello [Your Name],
+
+Thank you for considering our services and for your client's interest in the Mount Batur sunrise hike. I understand the importance of staying within budget, and I'm here to help find a solution that works for everyone.
+
+To accommodate the $300 budget, we can make the following adjustments:
+
+### Adjusted Package Options:
+
+1. **Exclusion of Breakfast:**
+   - By excluding the breakfast on the summit, we can reduce the total price. Clients can bring their own snacks or breakfast items instead.
+   - **Savings:** $20
+
+2. **Self-arranged Transportation:**
+   - If your clients can arrange their own transportation to and from the base of Mount Batur, we can further reduce the cost. This is feasible if they are staying nearby.
+   - **Savings:** $40
+
+With these adjustments, the revised package would be as follows:
+
+### **Revised Pricing:**
+- **Total for 4 Participants:** $300
+
+#### **Revised Inclusions:**
+- **Professional Guide:** English-speaking guide services remain.
+- **Equipment:** Walking sticks and headlamps.
+- **Meeting Point:** Directly at the base of Mount Batur.
+
+#### **Additional Notes:**
+- Please ensure your clients are aware that they will need to coordinate their own transportation and provide their own breakfast if they choose this option.
+- The hike will still start at 3:00 AM to ensure arrival at the summit in time for the sunrise.
+
+If these adjustments work for your client's needs, please confirm so we can proceed with the booking. Don't hesitate to reach out if there are any other considerations or questions.
+
+Looking forward to assisting further.
+
+Best regards,
+Made Wirawan
+2025-04-18 18:21:51,381 - INFO - [guide_manager.py:253] - Guide Made Wirawan asked traveler: Hello, I have negotiated a deal that fits within your budget of $300 for the Mount Batur sunrise hike. The guide has agreed to exclude breakfast and require you to arrange your own transportation to the base. Can you confirm if this arrangement works for you, specifically regarding transportation and breakfast? Thank you.
+2025-04-18 18:21:51,381 - INFO - [cli.py:43] - The guides had the following questions about your trip:
+- Hello, I have negotiated a deal that fits within your budget of $300 for the Mount Batur sunrise hike. The guide has agreed to exclude breakfast and require you to arrange your own transportation to the base. Can you confirm if this arrangement works for you, specifically regarding transportation and breakfast? Thank you.
+
+Please provide answers to help us negotiate the best deal for you.
+2025-04-18 18:21:53,049 - INFO - [cli.py:43] - Hmm, I was hoping breakfast would be included, but I guess we can sort that out ourselves before the hike. As for transportation, I need to check with the group if we can arrange that on our own. Let me get back to you on that. Thanks!
+2025-04-18 18:21:55,100 - INFO - [cli.py:43] - Error verifying question answers: Unsupported function
+
+{'type': 'object', 'properties': {'questions_status': {'type': 'object', 'description': 'A mapping of each question to whether it was properly addressed', 'additionalProperties': {'type': 'boolean', 'description': 'Whether the question was answered (true) or not (false)'}}, 'missing_answers': {'type': 'array', 'description': 'List of questions that still need answers', 'items': {'type': 'string'}}}, 'required': ['questions_status', 'missing_answers']}
+
+Functions must be passed in as Dict, pydantic.BaseModel, or Callable. If they're a dict they must either be in OpenAI function format or valid JSON schema with top-level 'title' and 'description' keys.
+2025-04-18 18:21:55,101 - INFO - [cli.py:43] - I still need some information to negotiate the best deal for you. Please answer these questions:
+- Hello, I have negotiated a deal that fits within your budget of $300 for the Mount Batur sunrise hike. The guide has agreed to exclude breakfast and require you to arrange your own transportation to the base. Can you confirm if this arrangement works for you, specifically regarding transportation and breakfast? Thank you.
+2025-04-18 18:21:56,531 - INFO - [cli.py:43] - Alright, so about the breakfast, it's not ideal but we can handle it ourselves. As for the transportation, I need to chat with the group to see if we can manage it. I’ll get back to you soon!
+2025-04-18 18:21:59,398 - INFO - [cli.py:43] - Error verifying question answers: Unsupported function
+
+{'type': 'object', 'properties': {'questions_status': {'type': 'object', 'description': 'A mapping of each question to whether it was properly addressed', 'additionalProperties': {'type': 'boolean', 'description': 'Whether the question was answered (true) or not (false)'}}, 'missing_answers': {'type': 'array', 'description': 'List of questions that still need answers', 'items': {'type': 'string'}}}, 'required': ['questions_status', 'missing_answers']}
+
+Functions must be passed in as Dict, pydantic.BaseModel, or Callable. If they're a dict they must either be in OpenAI function format or valid JSON schema with top-level 'title' and 'description' keys.
+2025-04-18 18:21:59,401 - INFO - [cli.py:43] - I still need some information to negotiate the best deal for you. Please answer these questions:
+- Hello, I have negotiated a deal that fits within your budget of $300 for the Mount Batur sunrise hike. The guide has agreed to exclude breakfast and require you to arrange your own transportation to the base. Can you confirm if this arrangement works for you, specifically regarding transportation and breakfast? Thank you.
+2025-04-18 18:22:00,319 - INFO - [cli.py:43] - Alright, so about the breakfast, it's not ideal but we can handle it ourselves. As for the transportation, I need to chat with the group to see if we can manage it. I’ll get back to you soon once I have their input!
+2025-04-18 18:22:02,684 - INFO - [cli.py:43] - Error verifying question answers: Unsupported function
+
+{'type': 'object', 'properties': {'questions_status': {'type': 'object', 'description': 'A mapping of each question to whether it was properly addressed', 'additionalProperties': {'type': 'boolean', 'description': 'Whether the question was answered (true) or not (false)'}}, 'missing_answers': {'type': 'array', 'description': 'List of questions that still need answers', 'items': {'type': 'string'}}}, 'required': ['questions_status', 'missing_answers']}
+
+Functions must be passed in as Dict, pydantic.BaseModel, or Callable. If they're a dict they must either be in OpenAI function format or valid JSON schema with top-level 'title' and 'description' keys.
+2025-04-18 18:22:02,689 - INFO - [cli.py:43] - I still need some information to negotiate the best deal for you. Please answer these questions:
+- Hello, I have negotiated a deal that fits within your budget of $300 for the Mount Batur sunrise hike. The guide has agreed to exclude breakfast and require you to arrange your own transportation to the base. Can you confirm if this arrangement works for you, specifically regarding transportation and breakfast? Thank you.
+2025-04-18 18:22:04,313 - INFO - [cli.py:43] - Okay, so breakfast being excluded isn't a huge deal. We can take care of that ourselves before the hike. About transportation, I still need to confirm with the others if we can manage it on our own. I’ll get back to you once I’ve spoken with them!
+2025-04-18 18:22:06,163 - INFO - [cli.py:43] - Error verifying question answers: Unsupported function
+
+{'type': 'object', 'properties': {'questions_status': {'type': 'object', 'description': 'A mapping of each question to whether it was properly addressed', 'additionalProperties': {'type': 'boolean', 'description': 'Whether the question was answered (true) or not (false)'}}, 'missing_answers': {'type': 'array', 'description': 'List of questions that still need answers', 'items': {'type': 'string'}}}, 'required': ['questions_status', 'missing_answers']}
+
+Functions must be passed in as Dict, pydantic.BaseModel, or Callable. If they're a dict they must either be in OpenAI function format or valid JSON schema with top-level 'title' and 'description' keys.
+2025-04-18 18:22:06,165 - INFO - [cli.py:43] - I still need some information to negotiate the best deal for you. Please answer these questions:
+- Hello, I have negotiated a deal that fits within your budget of $300 for the Mount Batur sunrise hike. The guide has agreed to exclude breakfast and require you to arrange your own transportation to the base. Can you confirm if this arrangement works for you, specifically regarding transportation and breakfast? Thank you.
+2025-04-18 18:22:07,590 - INFO - [cli.py:43] - Got it. Breakfast is fine to sort out ourselves. For transportation, I’m not sure yet, so I’ll need to check with the group to see if we can handle it. I’ll let you know as soon as I have more info from them!
+2025-04-18 18:22:09,238 - INFO - [cli.py:43] - Error verifying question answers: Unsupported function
+
+{'type': 'object', 'properties': {'questions_status': {'type': 'object', 'description': 'A mapping of each question to whether it was properly addressed', 'additionalProperties': {'type': 'boolean', 'description': 'Whether the question was answered (true) or not (false)'}}, 'missing_answers': {'type': 'array', 'description': 'List of questions that still need answers', 'items': {'type': 'string'}}}, 'required': ['questions_status', 'missing_answers']}
+
+Functions must be passed in as Dict, pydantic.BaseModel, or Callable. If they're a dict they must either be in OpenAI function format or valid JSON schema with top-level 'title' and 'description' keys.
+2025-04-18 18:22:09,243 - INFO - [cli.py:43] - I still need some information to negotiate the best deal for you. Please answer these questions:
+- Hello, I have negotiated a deal that fits within your budget of $300 for the Mount Batur sunrise hike. The guide has agreed to exclude breakfast and require you to arrange your own transportation to the base. Can you confirm if this arrangement works for you, specifically regarding transportation and breakfast? Thank you.
+2025-04-18 18:22:11,191 - INFO - [cli.py:43] - Alright, so regarding breakfast, we can manage that on our own before the hike. As for transportation, I still need to discuss with the group if we can handle it ourselves. I’ll get back to you once I have a definite answer from them. Thanks!
+2025-04-18 18:22:13,636 - INFO - [cli.py:43] - Error verifying question answers: Unsupported function
+
+{'type': 'object', 'properties': {'questions_status': {'type': 'object', 'description': 'A mapping of each question to whether it was properly addressed', 'additionalProperties': {'type': 'boolean', 'description': 'Whether the question was answered (true) or not (false)'}}, 'missing_answers': {'type': 'array', 'description': 'List of questions that still need answers', 'items': {'type': 'string'}}}, 'required': ['questions_status', 'missing_answers']}
+
+Functions must be passed in as Dict, pydantic.BaseModel, or Callable. If they're a dict they must either be in OpenAI function format or valid JSON schema with top-level 'title' and 'description' keys.
+2025-04-18 18:22:13,642 - INFO - [cli.py:43] - I still need some information to negotiate the best deal for you. Please answer these questions:
+- Hello, I have negotiated a deal that fits within your budget of $300 for the Mount Batur sunrise hike. The guide has agreed to exclude breakfast and require you to arrange your own transportation to the base. Can you confirm if this arrangement works for you, specifically regarding transportation and breakfast? Thank you.
+2025-04-18 18:22:15,166 - INFO - [cli.py:43] - Yep, breakfast being excluded is not a big deal, we can sort that out. For transportation, I need to touch base with the group to see if arranging it ourselves is feasible. I’ll get back to you once I know more. Thanks!
+2025-04-18 18:22:17,025 - INFO - [cli.py:43] - Error verifying question answers: Unsupported function
+
+{'type': 'object', 'properties': {'questions_status': {'type': 'object', 'description': 'A mapping of each question to whether it was properly addressed', 'additionalProperties': {'type': 'boolean', 'description': 'Whether the question was answered (true) or not (false)'}}, 'missing_answers': {'type': 'array', 'description': 'List of questions that still need answers', 'items': {'type': 'string'}}}, 'required': ['questions_status', 'missing_answers']}
+
+Functions must be passed in as Dict, pydantic.BaseModel, or Callable. If they're a dict they must either be in OpenAI function format or valid JSON schema with top-level 'title' and 'description' keys.
+2025-04-18 18:22:17,028 - INFO - [cli.py:43] - I still need some information to negotiate the best deal for you. Please answer these questions:
+- Hello, I have negotiated a deal that fits within your budget of $300 for the Mount Batur sunrise hike. The guide has agreed to exclude breakfast and require you to arrange your own transportation to the base. Can you confirm if this arrangement works for you, specifically regarding transportation and breakfast? Thank you.
+2025-04-18 18:22:18,446 - INFO - [cli.py:43] - Okay, about breakfast, we can handle that ourselves. For transportation, I still need to confirm with the group if that's something we can manage on our own. I’ll update you once I've got feedback from them. Thanks for your patience!
+2025-04-18 18:22:20,187 - INFO - [cli.py:43] - Error verifying question answers: Unsupported function
+
+{'type': 'object', 'properties': {'questions_status': {'type': 'object', 'description': 'A mapping of each question to whether it was properly addressed', 'additionalProperties': {'type': 'boolean', 'description': 'Whether the question was answered (true) or not (false)'}}, 'missing_answers': {'type': 'array', 'description': 'List of questions that still need answers', 'items': {'type': 'string'}}}, 'required': ['questions_status', 'missing_answers']}
+
+Functions must be passed in as Dict, pydantic.BaseModel, or Callable. If they're a dict they must either be in OpenAI function format or valid JSON schema with top-level 'title' and 'description' keys.
+2025-04-18 18:22:20,190 - INFO - [cli.py:43] - I still need some information to negotiate the best deal for you. Please answer these questions:
+- Hello, I have negotiated a deal that fits within your budget of $300 for the Mount Batur sunrise hike. The guide has agreed to exclude breakfast and require you to arrange your own transportation to the base. Can you confirm if this arrangement works for you, specifically regarding transportation and breakfast? Thank you.
+2025-04-18 18:22:21,416 - INFO - [cli.py:43] - Alright, I can confirm that handling breakfast on our own is okay with us. However, I still need to check with the group about transportation to see if we can arrange it ourselves. I’ll get back to you once I have more info on that. Thanks for understanding!
+2025-04-18 18:22:24,181 - INFO - [cli.py:43] - Error verifying question answers: Unsupported function
+
+{'type': 'object', 'properties': {'questions_status': {'type': 'object', 'description': 'A mapping of each question to whether it was properly addressed', 'additionalProperties': {'type': 'boolean', 'description': 'Whether the question was answered (true) or not (false)'}}, 'missing_answers': {'type': 'array', 'description': 'List of questions that still need answers', 'items': {'type': 'string'}}}, 'required': ['questions_status', 'missing_answers']}
+
+Functions must be passed in as Dict, pydantic.BaseModel, or Callable. If they're a dict they must either be in OpenAI function format or valid JSON schema with top-level 'title' and 'description' keys.
+2025-04-18 18:22:24,184 - INFO - [cli.py:43] - I still need some information to negotiate the best deal for you. Please answer these questions:
+- Hello, I have negotiated a deal that fits within your budget of $300 for the Mount Batur sunrise hike. The guide has agreed to exclude breakfast and require you to arrange your own transportation to the base. Can you confirm if this arrangement works for you, specifically regarding transportation and breakfast? Thank you.
+2025-04-18 18:22:25,717 - INFO - [cli.py:43] - Got it. Breakfast being excluded is fine, we'll handle that. But I still need to confirm with the group about transportation to see if we can manage it ourselves. I’ll get back to you once I know more from them. Thanks for your patience!
