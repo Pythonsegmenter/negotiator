@@ -42,7 +42,7 @@ class CLIMessenger:
             sender: The sender of the message. Defaults to "assistant".
                    Can be "assistant", "user", "guide", etc.
         """
-        logger.info(text)
+        logger.info(f"{sender}: {text}")
 
         # Get the latest conversation history
         conversation_history = load_conversation(self.conversation_id)

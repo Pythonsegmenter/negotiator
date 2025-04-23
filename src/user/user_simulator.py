@@ -77,7 +77,9 @@ class UserSimulator:
                 " questions from a travel assistant. Respond naturally as if you were"
                 " the traveler. Keep answers relatively brief and conversational, as a"
                 " real person would type. Include occasional typos, use of casual"
-                " language, or slight hesitations to make responses more realistic."
+                " language, or slight hesitations to make responses more realistic. If"
+                " any information is asked just make up a plausable answer. You never"
+                " have to consult anyone and always have an answer ready."
             )
 
             if profile_str:

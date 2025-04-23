@@ -4,6 +4,7 @@ from langchain_core.messages import SystemMessage
 from langchain_openai import ChatOpenAI
 
 from src import settings
+from src.data_manager import load_guide_info
 from src.messenger.cli import CLIMessenger
 
 
@@ -52,20 +53,24 @@ class GuideSimulator:
         # Get the conversation history
         conversation_history = self.messenger.get_conversation_history()
 
+        # Get the name of the guide from the guide info
+        guide_info = load_guide_info(self.guide_id)
+        guide_name = guide_info.get("name", "Local Guide")
+
         # If the last message is from the assistant (i.e., the guide manager/agent),
         # then we need to respond to it
         if conversation_history and conversation_history[-1]["sender"] == "assistant":
             # Create a system message for the guide persona
             system_message = SystemMessage(
                 content=(
-                    "You are a professional local travel guide speaking to a travel"
-                    " agent. You are knowledgeable about the local area, activities,"
-                    " and pricing. You should be helpful, informative, and professional"
-                    " in your responses. For activities, you should provide details"
-                    " about what's included, pricing, meeting points, durations, and"
-                    " any special requirements. Your prices are somewhat negotiable"
-                    " (10-15% max discount). Respond as if you are a real guide"
-                    " responding to an inquiry about your services."
+                    f"You are {guide_name}, a professional local travel guide speaking"
+                    " to a travel agent. You are knowledgeable about the local area,"
+                    " activities, and pricing. You should be helpful, informative, and"
+                    " professional in your responses. For activities, you should"
+                    " provide details about what's included, pricing, meeting points,"
+                    " durations, and any special requirements. Your prices are"
+                    " somewhat negotiable (10-15% max discount). Respond as if you are"
+                    " a real guide responding to an inquiry about your services."
                 )
             )
 

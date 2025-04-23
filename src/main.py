@@ -29,7 +29,7 @@ def all_negotiations_finished(guide_info_list: List[Dict[str, Any]]) -> bool:
         return False
 
     for guide_info in guide_info_list:
-        if guide_info.get("negotiation_status", "ongoing") != "finished":
+        if guide_info.get("_negotiation_status", "ongoing") != "finished":
             return False
 
     return True
@@ -93,12 +93,12 @@ def main() -> None:
 
     # Show simulation state to the user
     if settings.SIMULATION:
-        print(
-            "\nRunning in SIMULATION mode. Guide responses will be generated"
+        logger.info(
+            "Running in SIMULATION mode. Guide responses will be generated"
             " automatically."
         )
     else:
-        print("\nRunning in REAL mode. Waiting for real guide responses.")
+        logger.info("Running in REAL mode. Waiting for real guide responses.")
 
     # Contact a guide with the user's requirements
     for guide_manager in guide_managers:
@@ -130,6 +130,8 @@ def main() -> None:
         if questions:
             user_manager.collect_user_info(questions)
         questions = []  # reset questions
+
+    logger.info("completed all negotiations")
 
 
 if __name__ == "__main__":

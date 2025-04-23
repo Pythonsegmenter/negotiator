@@ -4,7 +4,7 @@ import json
 import shutil
 import uuid
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 
 # Define paths
 DATA_DIR = Path("data")
@@ -129,7 +129,7 @@ def save_guide_info(guide_info: Dict[str, Any]) -> None:
         json.dump(guide_info, f, indent=2)
 
 
-def load_guide_info(guide_id: str) -> Optional[Dict[str, Any]]:
+def load_guide_info(guide_id: str) -> Dict[str, Any]:
     """
     Load guide information from a JSON file.
 

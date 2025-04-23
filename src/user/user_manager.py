@@ -194,6 +194,47 @@ class UserManager:
             UserSimulator(self.user_id, simulation_profile) if simulation else None
         )
 
+    def _format_questions_prompt(self, questions: List[str]) -> str:
+        """
+        Format a list of questions into a natural, conversational prompt using LLM.
+
+        Args:
+            questions: List of questions to format
+
+        Returns:
+            str: A well-structured, conversational prompt containing the questions
+        """
+        system_message = SystemMessage(
+            content=(
+                "You are a helpful travel assistant that formats questions in a"
+                " natural, conversational way."
+            )
+        )
+
+        questions_formatted = "\n".join([f"- {question}" for question in questions])
+
+        prompt_content = f"""
+        # Questions from guides:
+        ```
+        {questions_formatted}
+        ```
+
+        # Task
+        Transform these guide questions into a single, natural-sounding message that I can send to the user.
+        The message should:
+        1. Have a brief, friendly introduction explaining these are questions from the guides
+        2. Present the questions in a conversational flow that feels natural, not like a bulleted list
+        3. End with a polite request for the information to help with negotiations
+        4. Be concise and direct while maintaining a helpful tone
+
+        DO NOT invent any information or add any questions not in the original list.
+        """
+
+        messages = [system_message, HumanMessage(content=prompt_content)]
+        formatted_prompt = self.llm.invoke(messages).content
+
+        return formatted_prompt
+
     def collect_user_info(self, questions: List[str] = []) -> None:
         """
         Collect user information from the user through an interactive conversation.
@@ -209,13 +250,9 @@ class UserManager:
                 " trip. What do you want to do?"
             )
         else:
-            # Join all questions together in one message
-            combined_questions = "\n".join([f"- {question}" for question in questions])
-            self.messenger.send(
-                "The guides had the following questions about your"
-                f" trip:\n{combined_questions}\n\nPlease provide answers to help us"
-                " negotiate the best deal for you."
-            )
+            # Format the questions into a natural prompt using LLM
+            formatted_questions = self._format_questions_prompt(questions)
+            self.messenger.send(formatted_questions)
         # If simulation is enabled, get the user simulator to respond
         if self.simulation and self.user_simulator:
             self.user_simulator.process_and_respond()

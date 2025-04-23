@@ -1,0 +1,50 @@
+2025-04-22 14:45:10,576 - INFO - [__init__.py:7] - Initializing settings
+2025-04-22 14:45:13,346 - INFO - [cli.py:45] - assistant: Hello, I'm Trippy. I'll help you negotiate the best deal for your trip. What do you want to do?
+2025-04-22 14:45:14,953 - INFO - [cli.py:45] - user: Hey Trippy! I'm planning on hiking Mount Batur at sunrise during my trip to Bali. It's gonna be me and three friends. We're looking for the best value deal, and the hike should be moderate in difficulty. Can you help with that?
+2025-04-22 14:45:18,172 - INFO - [cli.py:45] - assistant: That sounds like an amazing adventure! To make sure we get the best deal for your sunrise hike, could you let me know what your budget is? Also, do you have a specific start time in mind for the hike? This will help us find the perfect option for you and your friends.
+2025-04-22 14:45:19,604 - INFO - [cli.py:45] - user: Hey, yeah, for sure! Our budget is about $300 for the whole group. We want to start the hike around 5:00 AM to catch the sunrise, which is supposed to be amazing. Let me know what you can find!
+2025-04-22 14:45:22,877 - INFO - [cli.py:45] - assistant: That sounds like a great plan! Just to make sure we can secure the best deal in time, do you have a deadline for when you'd like to finalize the arrangements? Also, if you have any contact details for a guide you might be considering, that would be super helpful!
+2025-04-22 14:45:25,140 - INFO - [cli.py:45] - user: Oh, right! We'd like to have everything nailed down by July 15th, so we've got some peace of mind before the trip. I do have contact info for a guide, Made Wirawan. His number's +6281234567890. We haven't decided yet, but he seems like a good option. Let me know what you can do!
+2025-04-22 14:45:33,615 - INFO - [cli.py:45] - assistant: 📋 Here's a summary of your trip information:
+🎯 Activity: Hiking Mount Batur at sunrise
+📍 Location: Mount Batur, Bali
+📅 Start Time: 2023-10-15T05:00:00+08:00
+⏱️ Negotiation Deadline: 2023-07-15T00:00:00+08:00
+👥 Number of Participants: 4
+💰 Budget: 300
+
+Guide Contacts:
+  • Made Wirawan: +6281234567890
+
+Preferences:
+  • Price Vs Value: best_value
+
+Additional Information:
+  • Difficulty: moderate
+
+Is all of this information correct? Please review it carefully.
+If everything looks good, please confirm. If anything needs to be changed, please let me know what needs to be corrected.
+2025-04-22 14:45:35,334 - INFO - [cli.py:45] - user: Oops, there's a little mix-up with the dates. The start time for our hike should be August 15th, 2025, at 5:00 AM, and the deadline to finalize the arrangements is July 15th, 2025. Everything else looks spot on. Could you fix that for me? Thanks!
+2025-04-22 14:45:38,576 - INFO - [cli.py:45] - assistant: I've updated your information. Let me show you the new summary.
+2025-04-22 14:45:38,579 - INFO - [cli.py:45] - assistant: 📋 Here's a summary of your trip information:
+🎯 Activity: Hiking Mount Batur at sunrise
+📍 Location: Mount Batur, Bali
+📅 Start Time: 2025-08-15T05:00:00+08:00
+⏱️ Negotiation Deadline: 2025-07-15T00:00:00+08:00
+👥 Number of Participants: 4
+💰 Budget: 300
+
+Guide Contacts:
+  • Made Wirawan: +6281234567890
+
+Preferences:
+  • Price Vs Value: best_value
+
+Additional Information:
+  • Difficulty: moderate
+
+Is all of this information correct? Please review it carefully.
+If everything looks good, please confirm. If anything needs to be changed, please let me know what needs to be corrected.
+2025-04-22 14:45:39,632 - INFO - [cli.py:45] - user: Yep, that looks perfect now! Thanks for fixing it. Let's go ahead with this info and see what deals we can find. 😊
+2025-04-22 14:45:42,303 - INFO - [cli.py:45] - assistant: Thank you, we've got all we need. We'll get to work!
+2025-04-22 14:45:42,430 - INFO - [cli.py:45] - assistant: Hello, I am a travel agent working on behalf of a client. They are interested in: Hiking Mount Batur at sunrise at Mount Batur, Bali. They would like to do this starting at 2025-08-15T05:00:00+08:00 with 4 participants. Their budget is 300. Can you help with this request? Please let me know if this is possible, what services you can provide, and your pricing. Thank you.

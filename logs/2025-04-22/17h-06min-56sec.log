@@ -1,0 +1,45 @@
+2025-04-22 17:06:56,035 - INFO - [__init__.py:7] - Initializing settings
+2025-04-22 17:06:59,137 - INFO - [cli.py:45] - assistant: Hello, I'm Trippy. I'll help you negotiate the best deal for your trip. What do you want to do?
+2025-04-22 17:07:00,634 - INFO - [cli.py:45] - user: Hey Trippy! I'm planning a trip to Bali, and I really want to hike Mount Batur at sunrise. It's gonna be for four people, so I'm hoping to get a good deal. Any ideas on how to start this negotiation?
+2025-04-22 17:07:03,509 - INFO - [cli.py:45] - assistant: That sounds like an amazing adventure! To help you get the best deal, when are you planning to start your negotiations? Also, do you have a specific budget in mind for this hike?
+2025-04-22 17:07:04,938 - INFO - [cli.py:45] - user: I'm thinking about starting the negotiations soon, maybe sometime before July 15th, 2025. As for the budget, I'm aiming to keep it around $300 for the four of us. I’m looking for the best value for our money, you know?
+2025-04-22 17:07:11,362 - INFO - [cli.py:45] - assistant: That sounds like a solid plan! Do you have a specific start time in mind for the hike? Also, if you already have a guide in mind, do you have their contact details handy? This will help us ensure everything is lined up perfectly for your sunrise adventure.
+2025-04-22 17:07:12,618 - INFO - [cli.py:45] - user: Yeah, we're planning to start the hike at 5:00 AM. I've got a guide in mind—his name is Made Wirawan. You can reach him at +6281234567890. Hopefully, he can give us a great deal!
+2025-04-22 17:07:14,123 - INFO - [cli.py:45] - assistant: 📋 Here's a summary of your trip information:
+🎯 Activity: Hike Mount Batur at sunrise
+📍 Location: Mount Batur, Bali
+📅 Start Time: 2025-07-15T05:00:00+08:00
+⏱️ Negotiation Deadline: 2025-07-15
+👥 Number of Participants: 4
+💰 Budget: 300
+
+Guide Contacts:
+  • Made Wirawan: +6281234567890
+
+Preferences:
+  • Price Vs Value: best_value
+
+Is all of this information correct? Please review it carefully.
+If everything looks good, please confirm. If anything needs to be changed, please let me know what needs to be corrected.
+2025-04-22 17:07:15,859 - INFO - [cli.py:45] - user: Hey, thanks for putting that together! Just a little thing, the start time for the hike should be 5:00 AM on August 15th, 2025, not July. Everything else looks spot on! Can you make that change for me? Thanks!
+2025-04-22 17:07:18,032 - INFO - [cli.py:45] - assistant: I've updated your information. Let me show you the new summary.
+2025-04-22 17:07:18,036 - INFO - [cli.py:45] - assistant: 📋 Here's a summary of your trip information:
+🎯 Activity: Hike Mount Batur at sunrise
+📍 Location: Mount Batur, Bali
+📅 Start Time: 2025-08-15T05:00:00+08:00
+⏱️ Negotiation Deadline: 2025-07-15
+👥 Number of Participants: 4
+💰 Budget: 300
+
+Guide Contacts:
+  • Made Wirawan: +6281234567890
+
+Preferences:
+  • Price Vs Value: best_value
+
+Is all of this information correct? Please review it carefully.
+If everything looks good, please confirm. If anything needs to be changed, please let me know what needs to be corrected.
+2025-04-22 17:07:19,150 - INFO - [cli.py:45] - user: Perfect, that looks spot on now! Thanks for making the change. Let's go ahead with this info. 😊
+2025-04-22 17:07:21,401 - INFO - [cli.py:45] - assistant: Thank you, we've got all we need. We'll get to work!
+2025-04-22 17:07:21,489 - INFO - [main.py:96] - Running in SIMULATION mode. Guide responses will be generated automatically.
+2025-04-22 17:07:21,489 - INFO - [cli.py:45] - assistant: Hello, I am a travel agent working on behalf of a client. They are interested in: Hike Mount Batur at sunrise at Mount Batur, Bali. They would like to do this starting at 2025-08-15T05:00:00+08:00 with 4 participants. Their budget is 300. Can you help with this request? Please let me know if this is possible, what services you can provide, and your pricing. Thank you.
